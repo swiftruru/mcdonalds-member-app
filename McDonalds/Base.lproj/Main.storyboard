@@ -242,7 +242,7 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="mangoMcFlurry"/>
                                                     <connections>
-                                                        <segue destination="sDH-NI-fqs" kind="show" id="7Cx-Wq-Qs9"/>
+                                                        <segue destination="sDH-NI-fqs" kind="show" id="smV-Qd-yeT"/>
                                                     </connections>
                                                 </button>
                                             </subviews>

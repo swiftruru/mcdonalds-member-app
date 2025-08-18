@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DD5A37D12E4EC4B8001100F0 /* McDonald.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McDonald.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5A37D12E4EC4B8001100F0 /* McDonalds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McDonalds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DD5A37E32E4EC4B9001100F0 /* Exceptions for "McDonald" folder in "McDonald" target */ = {
+		DD5A37E32E4EC4B9001100F0 /* Exceptions for "McDonalds" folder in "McDonalds" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = DD5A37D02E4EC4B8001100F0 /* McDonald */;
+			target = DD5A37D02E4EC4B8001100F0 /* McDonalds */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DD5A37D32E4EC4B8001100F0 /* McDonald */ = {
+		DD5A37D32E4EC4B8001100F0 /* McDonalds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				DD5A37E32E4EC4B9001100F0 /* Exceptions for "McDonald" folder in "McDonald" target */,
+				DD5A37E32E4EC4B9001100F0 /* Exceptions for "McDonalds" folder in "McDonalds" target */,
 			);
-			path = McDonald;
+			path = McDonalds;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		DD5A37C82E4EC4B8001100F0 = {
 			isa = PBXGroup;
 			children = (
-				DD5A37D32E4EC4B8001100F0 /* McDonald */,
+				DD5A37D32E4EC4B8001100F0 /* McDonalds */,
 				DD5A37D22E4EC4B8001100F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		DD5A37D22E4EC4B8001100F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD5A37D12E4EC4B8001100F0 /* McDonald.app */,
+				DD5A37D12E4EC4B8001100F0 /* McDonalds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD5A37D02E4EC4B8001100F0 /* McDonald */ = {
+		DD5A37D02E4EC4B8001100F0 /* McDonalds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD5A37E42E4EC4B9001100F0 /* Build configuration list for PBXNativeTarget "McDonald" */;
+			buildConfigurationList = DD5A37E42E4EC4B9001100F0 /* Build configuration list for PBXNativeTarget "McDonalds" */;
 			buildPhases = (
 				DD5A37CD2E4EC4B8001100F0 /* Sources */,
 				DD5A37CE2E4EC4B8001100F0 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DD5A37D32E4EC4B8001100F0 /* McDonald */,
+				DD5A37D32E4EC4B8001100F0 /* McDonalds */,
 			);
-			name = McDonald;
+			name = McDonalds;
 			packageProductDependencies = (
 			);
 			productName = 2_DEMO;
-			productReference = DD5A37D12E4EC4B8001100F0 /* McDonald.app */;
+			productReference = DD5A37D12E4EC4B8001100F0 /* McDonalds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD5A37CC2E4EC4B8001100F0 /* Build configuration list for PBXProject "McDonald" */;
+			buildConfigurationList = DD5A37CC2E4EC4B8001100F0 /* Build configuration list for PBXProject "McDonalds" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD5A37D02E4EC4B8001100F0 /* McDonald */,
+				DD5A37D02E4EC4B8001100F0 /* McDonalds */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY2SFJP52M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = McDonald/Info.plist;
+				INFOPLIST_FILE = McDonalds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -179,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY2SFJP52M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = McDonald/Info.plist;
+				INFOPLIST_FILE = McDonalds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD5A37CC2E4EC4B8001100F0 /* Build configuration list for PBXProject "McDonald" */ = {
+		DD5A37CC2E4EC4B8001100F0 /* Build configuration list for PBXProject "McDonalds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD5A37E72E4EC4B9001100F0 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD5A37E42E4EC4B9001100F0 /* Build configuration list for PBXNativeTarget "McDonald" */ = {
+		DD5A37E42E4EC4B9001100F0 /* Build configuration list for PBXNativeTarget "McDonalds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD5A37E52E4EC4B9001100F0 /* Debug */,
