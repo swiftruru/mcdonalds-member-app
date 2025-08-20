@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24118.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="41e-0d-SuC">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24059"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--McDelivery-->
+        <scene sceneID="RRL-ws-2X0">
+            <objects>
+                <navigationController id="41e-0d-SuC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="McDelivery" image="McDelivery" selectedImage="McDelivery_selected" id="a5S-16-ntA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wMv-sT-QB5">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oEw-mn-5in" kind="relationship" relationship="rootViewController" id="4Ph-PR-9ZJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r49-JT-ZFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="970"/>
+        </scene>
+        <!--McDelivery-->
+        <scene sceneID="lc2-7F-CNl">
+            <objects>
+                <viewController title="McDelivery" id="oEw-mn-5in" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D1f-UV-1fp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hgD-rF-AdT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="McDelivery" id="Ee6-nv-DtX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSB-7z-GPw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510.68702290076334" y="903.52112676056345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="McDelivery" width="24.666666030883789" height="23.333333969116211"/>
+        <image name="McDelivery_selected" width="24.666666030883789" height="23.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
