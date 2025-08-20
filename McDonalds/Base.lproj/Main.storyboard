@@ -207,10 +207,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="8zD-Tw-FNT" kind="relationship" relationship="viewControllers" id="ulY-Pf-rQW"/>
-                        <segue destination="Gjy-RJ-JVo" kind="relationship" relationship="viewControllers" id="BDG-2F-A0E"/>
                         <segue destination="VlL-9r-cdD" kind="relationship" relationship="viewControllers" id="G2R-by-m2W"/>
                         <segue destination="9MA-bQ-uUL" kind="relationship" relationship="viewControllers" id="ohp-K8-EGs"/>
                         <segue destination="41e-0d-SuC" kind="relationship" relationship="viewControllers" id="YP7-oq-eP6"/>
+                        <segue destination="Gjy-RJ-JVo" kind="relationship" relationship="viewControllers" id="BDG-2F-A0E"/>
                         <segue destination="psP-80-oAx" kind="relationship" relationship="viewControllers" id="deX-au-9ZH"/>
                     </connections>
                 </tabBarController>
