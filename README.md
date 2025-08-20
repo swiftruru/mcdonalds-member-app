@@ -16,6 +16,7 @@ This is part of my blog series: *復刻麥當勞會員 App*
 ## 📖 Blog Series
 
 - [#01 Building the UI with Storyboard](https://swift.moe/mcdonalds-member-app-clone-01-storyboard-ui/)  
+- [#02 Splitting a Big Storyboard into Little French Fry Boxes](https://swift.moe/mcdonalds-app-clone-refactor-to-storyboard-ios/)  
 
 ---
 
