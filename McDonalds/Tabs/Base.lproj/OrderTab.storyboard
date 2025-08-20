@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24118.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9MA-bQ-uUL">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24059"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Order-->
+        <scene sceneID="K3r-LJ-WlB">
+            <objects>
+                <navigationController title="Order" id="9MA-bQ-uUL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Order" image="Order" selectedImage="Order_selected" id="LwN-Cs-RwQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B0F-W6-hUn">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2Oo-Ip-4GZ" kind="relationship" relationship="rootViewController" id="Thx-CF-N2K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bd-EZ-bB6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="232"/>
+        </scene>
+        <!--Order-->
+        <scene sceneID="qYw-Zq-dWO">
+            <objects>
+                <viewController title="Order" id="2Oo-Ip-4GZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FEj-gP-RHK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jds-6n-2rE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="diN-tf-kiC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zrx-Yg-lbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Order" width="24.666666030883789" height="23.333333969116211"/>
+        <image name="Order_selected" width="24.666666030883789" height="23.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
