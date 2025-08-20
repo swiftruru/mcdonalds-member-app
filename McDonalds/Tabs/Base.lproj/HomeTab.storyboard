@@ -34,7 +34,7 @@
         <scene sceneID="LI4-Kg-Dh3">
             <objects>
                 <tableViewController id="oaE-03-VYY" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="OeF-Li-4je">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="OeF-Li-4je">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -44,6 +44,31 @@
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="00：homeTopPromo" translatesAutoresizingMaskIntoConstraints="NO" id="x5o-MY-vif">
                                     <rect key="frame" x="0.0" y="-1" width="393" height="339"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="wNI-2r-wV9">
+                            <rect key="frame" x="0.0" y="4425" width="393" height="203"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's alll for now." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwU-ck-Qun">
+                                    <rect key="frame" x="118" y="25" width="157" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check in again soon for more deliciousness!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osp-vQ-bCP">
+                                    <rect key="frame" x="29" y="72" width="334" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.counterclockwise.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-5r-0g9">
+                                    <rect key="frame" x="174" y="111.66666666666674" width="44" height="40"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -313,6 +338,7 @@
         <image name="Home_selected" width="24.666666030883789" height="23.333333969116211"/>
         <image name="Mc" width="33.333332061767578" height="29.333333969116211"/>
         <image name="QR Code" width="32.666667938232422" height="32"/>
+        <image name="arrow.counterclockwise.circle" catalog="system" width="128" height="123"/>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="mangoMcFlurry-inner" width="390" height="328.33334350585938"/>
         <systemColor name="systemBackgroundColor">
