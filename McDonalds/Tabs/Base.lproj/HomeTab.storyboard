@@ -28,66 +28,218 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VnV-6M-pMC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1051" y="-1175"/>
+            <point key="canvasLocation" x="-947" y="-708"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="LI4-Kg-Dh3">
             <objects>
                 <tableViewController id="oaE-03-VYY" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="OeF-Li-4je">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="OeF-Li-4je">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Oz5-Mz-zLW">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="339"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="00：homeTopPromo" translatesAutoresizingMaskIntoConstraints="NO" id="x5o-MY-vif">
+                                    <rect key="frame" x="0.0" y="-1" width="393" height="339"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
                         <sections>
                             <tableViewSection id="kzs-0Z-Mbr">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="pbN-G8-fUj">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="334"/>
+                                        <rect key="frame" x="0.0" y="389" width="393" height="334"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pbN-G8-fUj" id="fBf-sm-4xc">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyR-dy-ats">
-                                                    <rect key="frame" x="10" y="15" width="372" height="314"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyR-dy-ats" userLabel="PointsExpiry">
+                                                    <rect key="frame" x="9" y="36" width="375" height="273"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="mangoMcFlurry"/>
-                                                    <connections>
-                                                        <segue destination="sDH-NI-fqs" kind="show" id="smV-Qd-yeT"/>
-                                                    </connections>
+                                                    <buttonConfiguration key="configuration" style="plain" image="01：homeCardPointsExpiry"/>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="aIc-H2-y28">
-                                        <rect key="frame" x="0.0" y="384" width="393" height="334"/>
+                                        <rect key="frame" x="0.0" y="723" width="393" height="334"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aIc-H2-y28" id="qrt-3q-flY">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjI-gM-s7L">
-                                                    <rect key="frame" x="10" y="15" width="372" height="314"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjI-gM-s7L" userLabel="TaroPie">
+                                                    <rect key="frame" x="12" y="16" width="369" height="312"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="mangoMcFlurry"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="02：homeCardTaroPie"/>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="Q0J-zY-3QP">
-                                        <rect key="frame" x="0.0" y="718" width="393" height="334"/>
+                                        <rect key="frame" x="0.0" y="1057" width="393" height="334"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q0J-zY-3QP" id="E15-9b-sJl">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e35-3X-tST">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e35-3X-tST" userLabel="SpicyCheesePorkBurger">
+                                                    <rect key="frame" x="12" y="16" width="369" height="313"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="03：homeCardSpicyCheesePorkBurger"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="aAS-5k-qqy">
+                                        <rect key="frame" x="0.0" y="1391" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aAS-5k-qqy" id="jJG-xa-0Y9">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1y-kZ-9xK" userLabel="CokeBogo">
+                                                    <rect key="frame" x="9" y="14" width="375" height="317"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="04：homeCardCokeBogo"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="Fqm-tb-Art">
+                                        <rect key="frame" x="0.0" y="1725" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fqm-tb-Art" id="Mwk-bz-9JJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duj-IL-gap" userLabel="FiletOFishDeal">
+                                                    <rect key="frame" x="12" y="16" width="369" height="312"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="05：homeCardFiletOFishDeal"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="akG-Gq-sfd">
+                                        <rect key="frame" x="0.0" y="2059" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="akG-Gq-sfd" id="0Hi-OS-Swb">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ8-E1-nSg" userLabel="MangoPomeloMcFlurry">
                                                     <rect key="frame" x="10" y="15" width="372" height="314"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="mangoMcFlurry"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="06：homeCardMangoPomeloMcFlurry"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="NJx-hs-SvG">
+                                        <rect key="frame" x="0.0" y="2393" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NJx-hs-SvG" id="pgb-Fo-16n">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8n-QA-Kh6" userLabel="BigMacLoyalty">
+                                                    <rect key="frame" x="11" y="16" width="370" height="312"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="07：homeCardBigMacLoyalty"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="jF4-EP-Xuk">
+                                        <rect key="frame" x="0.0" y="2727" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jF4-EP-Xuk" id="Uhh-Fb-R0R">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0f-bb-oTK" userLabel="SweetheartDeal">
+                                                    <rect key="frame" x="10" y="15" width="373" height="315"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="08：homeCardSweetheartDeal"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="IXA-dq-jIW">
+                                        <rect key="frame" x="0.0" y="3061" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IXA-dq-jIW" id="ETr-2b-BFn">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkm-io-hzn" userLabel="CokeShareDeal">
+                                                    <rect key="frame" x="11" y="16" width="370" height="312"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="09：homeCardCokeShareDeal"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="GeX-6H-iOT">
+                                        <rect key="frame" x="0.0" y="3395" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GeX-6H-iOT" id="IaP-q4-dAO">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXP-lL-TAZ" userLabel="DeliveryUpgrade">
+                                                    <rect key="frame" x="9" y="14" width="375" height="317"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="10：homeCardDeliveryUpgrade"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="3cg-JY-WcK">
+                                        <rect key="frame" x="0.0" y="3729" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3cg-JY-WcK" id="jBx-T9-1ym">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeL-y5-hNb" userLabel="SurveyReward">
+                                                    <rect key="frame" x="9" y="14" width="375" height="317"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="11：homeCardSurveyReward"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="334" id="uRn-PO-j6G">
+                                        <rect key="frame" x="0.0" y="4063" width="393" height="334"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uRn-PO-j6G" id="zBn-kS-jtA">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So2-4J-RlI" userLabel="CharityHouse">
+                                                    <rect key="frame" x="9" y="13" width="375" height="318"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="12：homeCardCharityHouse"/>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -121,7 +273,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UH4-9C-rfl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2028" y="-1026"/>
+            <point key="canvasLocation" x="-2060.3053435114502" y="-1104.2253521126761"/>
         </scene>
         <!--Home-->
         <scene sceneID="vtD-gu-0yX">
@@ -144,12 +296,24 @@
         </scene>
     </scenes>
     <resources>
+        <image name="00：homeTopPromo" width="390" height="366"/>
+        <image name="01：homeCardPointsExpiry" width="350.66665649414062" height="259"/>
+        <image name="02：homeCardTaroPie" width="344.66665649414062" height="298"/>
+        <image name="03：homeCardSpicyCheesePorkBurger" width="345" height="298.66665649414062"/>
+        <image name="04：homeCardCokeBogo" width="350.66665649414062" height="303"/>
+        <image name="05：homeCardFiletOFishDeal" width="345" height="298"/>
+        <image name="06：homeCardMangoPomeloMcFlurry" width="347.33334350585938" height="300"/>
+        <image name="07：homeCardBigMacLoyalty" width="345.66665649414062" height="298"/>
+        <image name="08：homeCardSweetheartDeal" width="348.66665649414062" height="301"/>
+        <image name="09：homeCardCokeShareDeal" width="345.66665649414062" height="298"/>
+        <image name="10：homeCardDeliveryUpgrade" width="350.66665649414062" height="303"/>
+        <image name="11：homeCardSurveyReward" width="350.66665649414062" height="303"/>
+        <image name="12：homeCardCharityHouse" width="350.66665649414062" height="303.33334350585938"/>
         <image name="Home" width="24.666666030883789" height="23.333333969116211"/>
         <image name="Home_selected" width="24.666666030883789" height="23.333333969116211"/>
         <image name="Mc" width="33.333332061767578" height="29.333333969116211"/>
         <image name="QR Code" width="32.666667938232422" height="32"/>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
-        <image name="mangoMcFlurry" width="347.33334350585938" height="300"/>
         <image name="mangoMcFlurry-inner" width="390" height="328.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

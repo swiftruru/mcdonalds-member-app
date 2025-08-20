@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "mangoMcFlurry 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "mangoMcFlurry 2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "mangoMcFlurry.png",
+      "filename" : "07：homeCardBigMacLoyalty.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
